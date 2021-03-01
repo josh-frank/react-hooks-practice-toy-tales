@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "likes": 10
     },
     {
       "id": 2,
@@ -51,7 +51,7 @@
     {
       "name": "Tickle Me Elmo",
       "image": "https://images-na.ssl-images-amazon.com/images/I/911wQ25YV1L._AC_SL1500_.jpg",
-      "likes": 0,
+      "likes": 2,
       "id": 9
     }
   ]

@@ -26,7 +26,7 @@ function App() {
       <div className="buttonContainer">
         <button onClick={ handleClick }>Add a Toy</button>
       </div>
-      <ToyContainer allToys={ toys }/>
+      <ToyContainer allToys={ toys } setToys={ setToys }/>
     </>
   );
 
