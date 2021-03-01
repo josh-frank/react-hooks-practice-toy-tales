@@ -47,6 +47,12 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Tickle Me Elmo",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/911wQ25YV1L._AC_SL1500_.jpg",
+      "likes": 0,
+      "id": 9
     }
   ]
 }
