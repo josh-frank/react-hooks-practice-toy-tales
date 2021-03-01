@@ -14,6 +14,12 @@ function ToyCard( { toy, allToys, setToys } ) {
       setToys( updatedToys );
     } );
   }
+  
+  function donateToy() {
+    fetch( `${ APIUrl }/${ toy.id }`, { method: "DELETE" } );
+    const updatedToys = allToys.filter( eachToy => eachToy.id !== toy.id );
+    setToys( updatedToys );
+  }
 
   return (
     <div className="card">
@@ -25,7 +31,7 @@ function ToyCard( { toy, allToys, setToys } ) {
       />
       <p>{ toy.likes } Likes </p>
       <button className="like-btn" onClick={ likeToy }>Like {"<3"}</button>
-      <button className="del-btn">Donate to GoodWill</button>
+      <button className="del-btn" onClick={ donateToy }>Donate to GoodWill</button>
     </div>
   );
 
